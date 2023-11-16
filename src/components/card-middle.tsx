@@ -3,7 +3,7 @@ import { Rating } from "./rating";
 
 export function CardMiddle() {
   return (
-    <div className="rounded-lg bg-gray-700 p-6 flex flex-col gap-8">
+    <div className="rounded-lg bg-gray-700 p-6 flex flex-col gap-8 border border-transparent hover:border hover:border-gray-600 hover:cursor-pointer transition-all">
       <div className="flex justify-between">
         <div className="flex items-center gap-4">
           <div className="w-10 h-10 rounded-full bg-gray-500" />
